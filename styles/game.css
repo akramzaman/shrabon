@@ -1,0 +1,484 @@
+/* Work Sans font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+
+/* Shared Styles */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-for-all {
+    color: #534C64;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-primary {
+    padding: 2px 2%;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: 0;
+}
+
+/* header styles start */
+header {
+    background-color: #FFF;
+    padding: 30px 180px;
+    text-align: center;
+}
+
+/* header icon part start */
+.header-icon {
+    display: flex;
+}
+
+.special-font {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-img {
+    width: 50px;
+    height: 25px;
+    padding-top: 17px;
+    padding-right: 4px;
+}
+
+/* header icon part end */
+
+/* header nav part start */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    justify-content: space-evenly;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+/* header nav part end */
+
+/* !-- team section start --> */
+.teams-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 180px;
+}
+
+.teams-content {
+    padding-top: 125px;
+    padding-bottom: 100px;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+
+}
+
+.teams-img {
+    width: 650px;
+    height: 500px;
+    /* border: 2px solid red; */
+
+}
+
+/* <!-- team section end --> */
+
+/* <!-- team section two start --> */
+.teams-container-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    padding: 10px 180px;
+    /* border: 2px solid red; */
+}
+
+.content-two-banner-img {
+    width: 650px;
+    height: 500px;
+    /* border: 2px solid red; */
+}
+
+.teams-content-two {
+    padding-top: 125px;
+    padding-bottom: 100px;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+/* <!-- team section two end--> */
+/* <!-- team section three start --> */
+.teams-container-three {
+    justify-content: space-between;
+    padding: 0 200px;
+    padding: 10px 18px;
+    /* border: 2px solid red; */
+}
+
+.teams-content-three {
+    padding: 20px;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+.poster-img {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.poster {
+    width: 250px;
+    height: 300px;
+    padding: 10px 40px;
+    justify-content: center;
+}
+
+/* <!-- team section three end--> */
+/* <!-- team section four start --> */
+.teams-container-four {
+    justify-content: space-between;
+    padding: 0 200px;
+    padding: 10px 18px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.teams-content-four {
+    padding: 220px;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+.feature-img {
+    padding-top: 60px;
+}
+
+.ten-years-badge {
+    width: 340px;
+    /* padding: 40px; */
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+
+}
+
+/* <!-- team section four end --> */
+/* <!-- team section five start --> */
+.teams-container-five {
+    justify-content: space-between;
+    padding: 0 200px;
+    padding: 10px 18px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.teams-content-five {
+    padding: 220px;
+    /* border: 2px solid red; */
+    align-items: center;
+    text-align: center;
+}
+
+.feature-img-two {
+    padding-top: 60px;
+}
+
+.ten-years-badge-two {
+    width: 340px;
+    /* padding: 40px; */
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    left: 550px;
+
+}
+
+/* <!-- team section five end --> */
+/* <!-- team section six start --> */
+.teams-container-six {
+    display: flex;
+    /* border: 2px solid red; */
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+
+.teams-content-six {
+    padding: 300px 20px;
+    /* border: 2px solid red; */
+
+}
+
+.text-for-six-content {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.career-btn {
+    border-radius: 48px;
+    background: #FFF;
+    border: 0;
+}
+
+/* <!-- team section six end --> */
+/* <!-- team section seven start --> */
+.gaming-part {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px 60px;
+    /* border: 2px solid red; */
+}
+
+.img-part {
+    gap: 10px;
+    align-items: center;
+}
+
+/* <!-- team section seven end --> */
+/* footer section start */
+.footer-class {
+    background: #0B0223;
+}
+
+.footer-icon {
+    display: flex;
+    padding: 10px 650px;
+}
+
+.gamer-footer {
+   color: #FFF;
+}
+
+.nav-icon {
+    padding: 10px 200px;
+    justify-content: space-evenly;
+    color: #FFF;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px;
+}
+
+/* footer section end*/
+
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 5px 90px;
+        /* justify-content: center; */
+        /* padding-left: auto; */
+        text-align: center;
+    }
+
+    .text-for-all {
+        color: #534C64;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    nav,
+    nav>ul,
+    .teams-container,
+    .teams-container-two,
+    .poster-img,
+    .teams-container-four,
+    .teams-container-five,
+    .teams-container-six {
+        display: grid;
+        /* margin: auto;
+        padding: auto; */
+    }
+
+    .teams-container {
+        padding: 0px 60px;
+    }
+
+    .teams-content {
+        padding: 5px 70px;
+
+
+    }
+
+    .teams-img {
+        width: 250px;
+        height: 220px;
+        justify-content: center;
+
+    }
+
+    /* container two start */
+    .teams-container-two {
+        padding: 0px 60px;
+    }
+
+    .content-two-banner-img {
+        width: 250px;
+        height: 220px;
+        justify-content: center;
+    }
+
+    .teams-content-two {
+        padding: 5px 70px;
+    }
+
+    /* container two end */
+    /* container three start */
+    .teams-content-three {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /* border: 2px solid red; */
+        align-items: center;
+        text-align: center;
+    }
+
+    .poster {
+        width: 125px;
+        height: 125px;
+        padding: 5px 95px;
+    }
+
+    /* container three end*/
+    /* container four start */
+
+    .teams-content-four {
+        padding-top: 105px;
+        padding-bottom: 5px;
+        /* border: 2px solid red; */
+        align-items: center;
+        text-align: center;
+    }
+
+    .teams-content-four {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /* border: 2px solid red; */
+        align-items: center;
+        padding-left: 120px;
+    }
+
+    .feature-img {
+        width: 250px;
+        height: 300px;
+        padding-left: 40px;
+    }
+
+    .ten-years-badge {
+        width: 140px;
+        /* padding: 40px; */
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+        right: 20px;
+
+    }
+
+    /* container four end */
+    /* container five start */
+    .teams-content-five {
+        padding-top: 105px;
+        padding-bottom: 5px;
+        /* border: 2px solid red; */
+        align-items: center;
+        text-align: center;
+    }
+
+    .teams-content-five {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /* border: 2px solid red; */
+        align-items: center;
+        padding-left: 120px;
+    }
+
+    .feature-img-two {
+        width: 250px;
+        height: 300px;
+        padding-left: 40px;
+    }
+
+    .ten-years-badge-two {
+        width: 140px;
+        /* padding: 40px; */
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+        left: 20px;
+        padding: 0;
+
+    }
+
+    /* container five end */
+    /* container six start */
+    .teams-content-six {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        /* border: 2px solid red; */
+    }
+
+    .six-content-img {
+        width: 300px;
+        height: 400px;
+        padding: 0px 40px;
+    }
+
+    .text-for-six-content {
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .career-btn {
+        border-radius: 28px;
+        background: #FFF;
+        border: 0;
+    }
+
+    /* container six end */
+    /* container seven start */
+    .gaming-part {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 30px 60px;
+        /* border: 2px solid red; */
+    }
+
+    /* container seven end */
+    /* footer section start */
+    .footer-icon {
+        display: flex;
+        padding: 10px 120px;
+    }
+
+    /* footer section end*/
+}
